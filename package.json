@@ -1,0 +1,31 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "This is a sample website made as part of [*Learn Enough™ Git to Be\r Dangerous*](https://www.learnenough.com/git-tutorial), possibly the greatest\r beginner Git tutorial in the history of the Universe. You should totally [\r check it out](https://www.learnenough.com/git-tutorial), and be sure to [join\r the email list](https://www.learnenough.com/#email_list) and\r [follow @learnenough](http://twitter.com/learnenough) on Twitter.",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilliamsOhworuka/website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WilliamsOhworuka/website/issues"
+  },
+  "homepage": "https://github.com/WilliamsOhworuka/website#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "mocha": "^6.0.2"
+  }
+}
