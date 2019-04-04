@@ -1,5 +1,5 @@
 const assert = require('assert');
-const count = require('../count.js');
+const count = require('../src/count.js');
 
 /* eslint-env mocha */
 describe('simple mocha test', () => {

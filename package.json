@@ -7,6 +7,9 @@
     "test": "test"
   },
   "scripts": {
+    "start":"nodemon --exec babel-node src/count.js",
+    "build":"babel src --out-dir dist",
+    "serve":"node dist/count.js",
     "test": "mocha",
     "lint": "./node_modules/.bin/eslint ."
   },
@@ -22,10 +25,15 @@
   },
   "homepage": "https://github.com/WilliamsOhworuka/website#readme",
   "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.3",
     "chai": "^4.2.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.16.0",
-    "mocha": "^6.0.2"
+    "mocha": "^6.0.2",
+    "nodemon": "^1.18.10"
   }
 }
